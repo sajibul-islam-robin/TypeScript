@@ -45,3 +45,8 @@ Returns a Promise
 If age is below 18, immediately rejects with an Error.
 If age is 18 or above, waits 1 second.
 Then resolves with "Access Granted".
+
+blog 1: https://github.com/sajibul-islam-robin/TypeScript/edit/main/README.md#:~:text=T-,Access_modifiers,-.md
+blog 2: https://github.com/sajibul-islam-robin/TypeScript/edit/main/README.md#:~:text=type_aliases-,_vs_interface,-.md
+
+
