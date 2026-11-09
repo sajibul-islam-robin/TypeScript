@@ -50,9 +50,7 @@ const concatenateArrays = <new_type>(...arrays: new_type[][]): new_type[] => {
     return newArray;
 
 };
-console.log(concatenateArrays(["a", "b"], ["c", "d"]))
 
-console.log(concatenateArrays([1, 2], [3, 4], [5]));
 
 
 interface Course {
@@ -72,13 +70,7 @@ const getPopularCourses  = (Courses: Course[], minStudents: number) => {
 
     return popularCourses;
 };
-const courses = [
-  { title: "TypeScript Mastery", students: 120, isPublished: true },
-  { title: "Draft Course", students: 200, isPublished: false },
-  { title: "Basic HTML", students: 45, isPublished: true },
-  { title: "Next.js Pro", students: 85, isPublished: true }
-];
-console.log(getPopularCourses(courses, 500));
+
 
 
 
@@ -116,8 +108,17 @@ class Manager extends Employee {
         return `Manager of ${this.department}: ${this.name}`;
     }
 }
-
-const manager = new Manager("Alice", 50000, "Engineering");
-
-console.log(manager.getDetails());
-console.log(manager.getRoleInfo());
+const validateAgeAsync = (age:number):Promise<string> => {
+  return new Promise((resolve,reject) => {
+    if (age < 18) {
+        reject(new Error("Access Denied: Must be 18 or older"));
+    }
+    
+    else {
+      setTimeout(() => {
+        
+        resolve("Access Granted");
+      }, 1000);
+    }
+  });
+};
