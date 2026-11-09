@@ -2,7 +2,7 @@
 
 So the given Assaignment I have struggle to solve each question:
 
-In problem solving 1 to 3 was comparatively easy. I have understood the generic function previously but faced difficulties to solve 4,5, but eventually I rid of it after watching the tutorial from youtube also and read documentary. 
+In problem solving 1 to 3 was comparatively easy. I have understood the generic function previously but faced difficulties to solve 4,5, but eventually I rid of it after watching the tutorial from youtube also and read documentary. Classses task was pretty easy. only faced most trouble writing. md file and readme file
 
 1. Takes two numbers.
 If the multiplier is not provided, multiply by 2.  Otherwise, multiply by the given multiplier.
